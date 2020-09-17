@@ -13,7 +13,7 @@ export const getPlanets = () => async (dispatch) => {
 
         dispatch({
             type: GET_PLANETS_SUCCESS,
-            planets: data.results
+            planets: data
         });
 
     } catch (err) {

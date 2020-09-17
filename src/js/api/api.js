@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 let defaultConfig = {
-    baseURL: 'https://swapi.dev/api',
+    baseURL: 'http://localhost:5000',
     headers: {
         'Content-Type': 'application/json',
     }
